@@ -13,6 +13,8 @@ export default function Home() {
       <p className='font-bold text-lg mb-5'>Question 1: How many rams have you downloaded (select all that apply)?</p>
       <article className='mb-3 p-5 border w-full'>Just 1</article>
       <article className='mb-3 p-5 border w-full'>About 3</article>
+      <article className='mb-3 p-5 border w-full'>About 3</article>
+      <article className='mb-3 p-5 border w-full'>About 3</article>
     </main>
   )
 }
