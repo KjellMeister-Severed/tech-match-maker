@@ -9,7 +9,7 @@ export default function Home() {
   const router = useRouter();
 
   return (
-    <main className={`flex min-h-screen flex-col items-start p-12`}>
+    <main className={`flex min-h-screen bg-formBgByLevel-1 flex-col items-start p-12`}>
       <p className='font-bold text-lg mb-5'>Question 1: How many rams have you downloaded (select all that apply)?</p>
       <article className='mb-3 p-5 border w-full'>Just 1</article>
       <article className='mb-3 p-5 border w-full'>About 3</article>
