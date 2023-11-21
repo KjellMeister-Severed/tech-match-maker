@@ -10,6 +10,8 @@ enum Type {
 	SINGLE,
 }
 
+//reload
+
 interface Question {
 	selectedMulti: string[];
 	selectedSingle: string;
