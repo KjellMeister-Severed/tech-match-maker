@@ -13,6 +13,7 @@ export async function POST(req: Request) {
   const openaires = await openai.chat.completions.create({
     model: "gpt-3.5-turbo",
     messages: [{"role": "user", "content": prompt}],
+    max_tokens: 1000,
     stream: true
   });
 
